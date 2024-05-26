@@ -1,0 +1,115 @@
+.slider-btn {
+  display: flex;
+  margin: auto;
+  margin-top: -20px;
+  margin-bottom: 50px;
+  background-color: #eeeeee;
+  padding: 6px;
+  border-radius: 24px;
+  width: 330px;
+}
+
+.slider-btn > button {
+  cursor: pointer;
+  width: 84px;
+  height: 46px;
+  padding: 4px;
+  border: none;
+  border-radius: 32px;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: poppins;
+}
+
+.slider {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  display: flex;
+  min-width: 100%;
+  justify-content: center;
+}
+
+.slide-item {
+  text-align: left;
+  position: relative;
+  background-color: white;
+  border-radius: 24px;
+  max-width: 300px;
+  margin: 0 25px;
+}
+
+.slide-item > div {
+  margin-left: 20px;
+}
+
+.slide-item > h2 {
+  font-family: poppins;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cost {
+  margin-top: 40px;
+}
+
+.slide-item > p {
+  color: gray;
+  font-family: poppins;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.slide-item > img {
+  position: relative;
+  top: 10px;
+  width: 240px;
+  height: 250px;
+}
+
+.prev,
+.next {
+  box-shadow: 0px 7.03px 19.53px 0px #0000000f;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px 18px;
+  border-radius: 50%;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  background-color: white;
+  user-select: none;
+}
+.main {
+  text-align: center;
+  padding-bottom: 100px;
+}
+.main > a {
+  position: relative;
+  top: 50px;
+  color: orange;
+  text-decoration: none;
+  font-family: poppins;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}

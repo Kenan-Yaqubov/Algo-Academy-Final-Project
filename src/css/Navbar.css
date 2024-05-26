@@ -1,0 +1,39 @@
+#logo {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  margin-left: 70px;
+}
+
+a.choose {
+  font-weight: 400;
+  font-family: Poppins;
+  color: white;
+  text-decoration: none;
+  margin-right: 70px;
+}
+
+nav {
+  background-color: transparent;
+  padding: 1.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a#basket {
+  color: white;
+  text-decoration: none;
+  margin-right: 70px;
+}
+
+a.choose>i {
+    font-size: 12px;
+    margin-left: 5px
+}
+
+a#basket>i {
+    font-size: 28px;
+}

@@ -1,5 +1,5 @@
 #logo {
-  font-family: Poppins;
+  font-family: "Gilroy-Bold";
   font-size: 24px;
   font-weight: 600;
   color: white;
@@ -9,7 +9,7 @@
 
 a.choose {
   font-weight: 400;
-  font-family: Poppins;
+  font-family: "Gilroy-Medium";
   color: white;
   text-decoration: none;
   margin-right: 70px;

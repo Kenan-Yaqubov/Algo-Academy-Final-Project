@@ -1,0 +1,71 @@
+
+/*Experement CSS writing*/
+
+footer {
+  background-color: #f7f7f7;
+  padding-top: 100px;
+  .FooterDiv {
+    display: flex;
+    .Lists {
+      display: flex;
+      position: relative;
+      right: 200px;
+      ul {
+        line-height: 32px;
+        margin-left: 100px;
+        li {
+          opacity: 0.8;
+          font-family: Gilroy-Medium;
+          font-size: 15px;
+          color: #1e1e1e;
+          white-space: nowrap;
+          img {
+            position: relative;
+            top: 5px;
+          }
+        }
+        .heading {
+          color: #f6973f;
+          font-size: 17px;
+          font-family: "DM sans" !important;
+          font-weight: 400;
+        }
+      }
+    }
+    .textFooterDiv {
+      margin-left: 200px;
+      h2 {
+        font-family: "Gilroy-Bold";
+        font-size: 28px;
+        color: #1e1e1e;
+      }
+      p {
+        font-family: "Gilroy-Medium";
+        font-size: 15px;
+        line-height: 24px;
+        color: #1e1e1e;
+        margin-right: 280px;
+      }
+    }
+  }
+  .Others {
+    display: flex;
+    padding-top: 50px;
+    .copyright {
+      opacity: 0.5;
+      margin-left: 200px;
+      font-family: "DM Sans";
+      color: #1e2833;
+    }
+    .termsPrivacy {
+      color: #1e1e1e;
+      font-family: "DM Sans";
+      opacity: 0.8;
+      position: absolute;
+      right: 200px;
+      font-family: "Gilroy-Medium";
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+}

@@ -6,7 +6,7 @@ div#flexDiv {
 
 #flexDiv > div> h1 {
     font-size: 40px;
-    font-family: Poppins;
+    font-family: "Gilroy-Bold";
     font-weight: 600;
 }
 
@@ -15,18 +15,18 @@ div#flexDiv {
 }
 
 #flexDiv > div.whyUs > h2 {
-    font-family: open sans;
+    font-family: "Gilroy-Bold";
 }
 
 #flexDiv > div.whyUs > p {
-    font-family: open sans;
+    font-family: "Gilroy-Regular";
     line-height: 30px;
     color: #323232;
     font-weight: 300;
 }
 
 #flexDiv > div.whyUs > a {
-    font-family: open sans;
+    font-family: "Gilroy-Medium";
     font-size: 14px;
     text-decoration: none;
     color: rgb(255, 140, 0);

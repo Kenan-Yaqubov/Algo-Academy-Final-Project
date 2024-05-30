@@ -22,7 +22,7 @@
 }
 
 #bgImg > h1 {
-  font-family: Poppins;
+  font-family: "Gilroy-Bold";
   color: white;
   font-size: 72px;
   margin-inline: 215px;
@@ -30,27 +30,28 @@
 
 #bgImg > p {
   color: white;
+  opacity: 0.8;
   font-size: 24px;
-  font-family: open sans;
-  font-weight: 100;
+  font-family: "Gilroy-Regular";
   margin-top: -10px;
   margin-inline: 450px;
 }
 
 #bgImg > input {
   border-radius: 28px;
-  border: 2px solid #666;
+  border: 2px solid #FFFFFF99;
+  font-size: 18px;
   margin-bottom: 400px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
   padding: 16px;
   font-size: 18px;
-  color: #666;
+  color: #FFFFFF99;
   margin-left: 30px;
   padding-right: 82px;
   margin-top: 20px;
 }
 ::placeholder {
-  color: #666;
+  color: #FFFFFF99;
 }
 
 #bgImg > i {

@@ -29,7 +29,7 @@ function SlideShow() {
       <h1
         style={{
           textAlign: "center",
-          fontFamily: "open sans",
+          fontFamily: "Gilroy-Bold",
           fontSize: 38,
           padding: 50,
           fontWeight: 700,

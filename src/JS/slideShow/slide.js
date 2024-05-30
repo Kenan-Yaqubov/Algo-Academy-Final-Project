@@ -1,8 +1,8 @@
-import "../css/slideShow.css";
-import chair1 from "../imgs/chair1.png";
-import chair2 from "../imgs/chair2.png";
-import chair3 from "../imgs/chair3.png";
-import chair4 from "../imgs/chair4.png";
+import "../../css/slideShow.css";
+import chair1 from "../../imgs/chair1.png";
+import chair2 from "../../imgs/chair2.png";
+import chair3 from "../../imgs/chair3.png";
+import chair4 from "../../imgs/chair4.png";
 function Slide() {
   return (
     <div className="slide">

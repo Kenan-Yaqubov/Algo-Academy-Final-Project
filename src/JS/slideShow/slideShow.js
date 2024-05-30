@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import arr from "../imgs/Vectorarr.png";
-import "../css/slideShow.css";
+import arr from "../../imgs/Vectorarr.png";
+import "../../css/slideShow.css";
 import Slide from "./slide";
 
 function SlideShow() {

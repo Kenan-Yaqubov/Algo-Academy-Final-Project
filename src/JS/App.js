@@ -1,9 +1,9 @@
 import React from "react";
 import '../css/App.css';
-import Header from "./Header";
-import Main from "./Main";
-import SlideShow from "./slideShow";
-import ExperianceAndMaterials from "./Experince&Materials";
+import Header from "./Header/Header";
+import Main from "./Main/Main";
+import SlideShow from "./slideShow/slideShow";
+import ExperianceAndMaterials from "./ExperienceAndMaterials/Experince&Materials";
 
 function App() {
   return (

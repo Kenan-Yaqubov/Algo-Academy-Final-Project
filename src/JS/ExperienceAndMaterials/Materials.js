@@ -1,10 +1,10 @@
-import image2 from "../imgs/chiars.png";
-import image3 from "../imgs/chairs2.png";
-import arr from "../imgs/Vectorarr.png";
-import image4 from "../imgs/sofa.png";
-import "../css/Experience&Materials.css";
-import "../css/arrow.css";
-import "../css/gilroy.css";
+import image2 from "../../imgs/chiars.png";
+import image3 from "../../imgs/chairs2.png";
+import arr from "../../imgs/Vectorarr.png";
+import image4 from "../../imgs/sofa.png";
+import "../../css/Experience&Materials.css";
+import "../../css/arrow.css";
+import "../../css/gilroy.css";
 function Materials() {
   return (
     <>

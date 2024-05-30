@@ -1,8 +1,8 @@
-import image1 from "../imgs/image1.png";
-import arr from "../imgs/Vectorarr.png";
-import "../css/Experience&Materials.css";
-import "../css/arrow.css";
-import "../css/gilroy.css";
+import image1 from "../../imgs/image1.png";
+import arr from "../../imgs/Vectorarr.png";
+import "../../css/Experience&Materials.css";
+import "../../css/arrow.css";
+import "../../css/gilroy.css";
 function Experiance() {
   return (
     <>

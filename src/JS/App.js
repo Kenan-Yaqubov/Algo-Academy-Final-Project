@@ -4,6 +4,7 @@ import Header from "./Header/Header";
 import Main from "./Main/Main";
 import SlideShow from "./slideShow/slideShow";
 import ExperianceAndMaterials from "./ExperienceAndMaterials/Experince&Materials";
+import ClientsReview from "./ClientsReview/ClientsReview";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Main />
       <SlideShow />
       <ExperianceAndMaterials />
+      <ClientsReview />
     </>
   );
 }

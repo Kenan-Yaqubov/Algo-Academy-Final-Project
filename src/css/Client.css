@@ -1,0 +1,62 @@
+.clientMain {
+    margin: 20px;
+  }
+  
+  .clientText {
+    display: block;
+    width: 334px;
+    height: 206px;
+    position: relative;
+    left: 25px;
+    top: -230px;
+    width: 320px;
+    border-radius: 20px;
+    background-color: white;
+  }
+  
+  .clientText > h3 {
+    position: relative;
+    top: -20px;
+    color: #1e1e1e;
+    margin-top: 0px;
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+  }
+  
+  .clientText > .paraqraph {
+    position: relative;
+    top: -20px;
+    opacity: 0.6;
+    margin-top: -10px;
+    font-family: "Gilroy-Regular";
+    color: #1e1e1e;
+    font-size: 12px;
+  }
+  
+  .clientText > .text {
+    position: relative;
+    top: -20px;
+    line-height: 16.41px;
+    opacity: 0.8;
+    font-size: 14px;
+    font-family: "Gilroy-Regular";
+    margin-inline: 30px;
+  }
+  
+  .clientText > .stars > img.star {
+    margin: 3px;
+    position: relative;
+    top: -20px;
+  }
+  
+  .clientText > .stars {
+    position: relative;
+    top: 0;
+  }
+  
+  .avatar {
+    position: relative;
+    top: -25px;
+    border: 10px solid white;
+    border-radius: 50%;
+  }

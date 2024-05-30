@@ -1,0 +1,23 @@
+.main-CR-Container > h2 {
+  color: #e58411;
+  font-family: "Gilroy-SemiBold";
+  font-size: 18px;
+  line-height: 21.09px;
+  letter-spacing: 0.175em;
+}
+
+.main-CR-Container {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.CR_container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-CR-Container > h1 {
+  font-family: "Gilroy-Bold";
+  font-size: 42px;
+}
+

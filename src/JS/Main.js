@@ -1,9 +1,11 @@
 import "../css/Main.css";
+import arr from "../imgs/Vectorarr.png";
+import '../css/arrow.css'
 
 function Main() {
   return (
     <div id="flexDiv">
-      <div style={{width: 700}}>
+      <div style={{ width: 700 }}>
         <h1>Why Choosing Us</h1>
       </div>
       <div className="whyUs">
@@ -13,7 +15,7 @@ function Main() {
           service and all-around facilites
         </p>
         <a href="/">
-          More info <i class="fa-solid fa-arrow-right-long"></i>
+          More info  <img src={arr} className="arrow" />
         </a>
       </div>
       <div className="whyUs">
@@ -23,7 +25,7 @@ function Main() {
           and still enjoy the facilities that are oly here.
         </p>
         <a href="/">
-          More info <i class="fa-solid fa-arrow-right-long"></i>
+          More info  <img src={arr} className="arrow" />
         </a>
       </div>
       <div className="whyUs">
@@ -33,7 +35,7 @@ function Main() {
           workspace to your liking.
         </p>
         <a href="/">
-          More info <i class="fa-solid fa-arrow-right-long"></i>
+          More info <img src={arr} className="arrow" />
         </a>
       </div>
     </div>

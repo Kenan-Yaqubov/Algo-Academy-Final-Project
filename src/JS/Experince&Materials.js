@@ -1,17 +1,13 @@
-import image1 from "../imgs/image1.png";
+import Experiance from "./Experience";
+import Materials from "./Materials";
 
-function Experiance() {
+function ExperianceAndMaterials() {
   return (
-    <div className="flex">
-      <img src={image1} />
-      <div>
-        <h2></h2>
-        <h1></h1>
-        <p></p>
-        <a href="/"></a>
-      </div>
-    </div>
+    <>
+      <Experiance />
+      <Materials />
+    </>
   );
 }
 
-export default Experiance;
+export default ExperianceAndMaterials;

@@ -3,7 +3,7 @@ import '../css/App.css';
 import Header from "./Header";
 import Main from "./Main";
 import SlideShow from "./slideShow";
-import Experiance from "./Experince&Materials";
+import ExperianceAndMaterials from "./Experince&Materials";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Main />
       <SlideShow />
-      <Experiance />
+      <ExperianceAndMaterials />
     </>
   );
 }

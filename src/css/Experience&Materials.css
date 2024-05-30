@@ -1,0 +1,89 @@
+.flex {
+  display: flex;
+  margin-top: 300px;
+  position: relative;
+}
+
+div.flex > div.textDiv {
+  margin-left: 140px;
+}
+
+div.flex > div.textDiv > h2 {
+  color: #e58411;
+  font-family: "Gilroy-SemiBold";
+  font-size: 18px;
+  line-height: 21.09px;
+  letter-spacing: 0.175em;
+  text-align: left;
+}
+
+div.flex > div.textDiv > h1 {
+  font-family: "Gilroy-Bold";
+  font-size: 42px;
+  margin-right: 200px;
+}
+
+div.flex > div.textDiv > p {
+  font-family: "Gilroy-Regular";
+  font-size: 18px;
+  line-height: 33.3px;
+  margin-right: 90px;
+  font-weight: 200;
+}
+
+div.flex > div.textDiv > a {
+  font-family: "Gilroy-Medium";
+  font-size: 14px;
+  color: #e58411;
+  text-decoration: none;
+}
+
+div.flex > div.back {
+  z-index: -1;
+  gap: 0px;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  position: absolute;
+}
+
+div.flex > div.back1 {
+  width: 495px;
+  height: 422px;
+  top: -70px;
+  left: -65px;
+}
+
+div.flex > div.back2 {
+  width: 495px;
+  height: 301px;
+  top: 70px;
+  left: 170px;
+}
+
+.flex2 {
+  display: flex;
+  position: relative;
+}
+
+#notSofa {
+  margin-top: -85px;
+  position: relative;
+  top: -20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 20px;
+
+}
+
+.imgs {
+  position: relative;
+  top: -100px;
+}
+
+#sofa {
+  height: 317px;
+  margin-top: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 20px;
+}

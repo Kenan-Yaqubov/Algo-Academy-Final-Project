@@ -1,33 +1,87 @@
 div#flexDiv {
-    display: flex;
-    padding-block: 120px;
-    padding-inline: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 60px;
+  padding-inline: 20px;
 }
 
-#flexDiv > div> h1 {
-    font-size: 40px;
-    font-family: "Gilroy-Bold";
-    font-weight: 600;
+#flexDiv > div > h1 {
+  font-size: 2rem;
+  font-family: "Gilroy-Bold";
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 #flexDiv > div.whyUs {
-    margin-left: 50px;
+  margin-block: 30px;
+  text-align: center;
 }
 
 #flexDiv > div.whyUs > h2 {
-    font-family: "Gilroy-Bold";
+  font-family: "Gilroy-Bold";
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
 #flexDiv > div.whyUs > p {
-    font-family: "Gilroy-Regular";
-    line-height: 30px;
-    color: #323232;
-    font-weight: 300;
+  margin-inline: 10%;
+  font-family: "Gilroy-Regular";
+  line-height: 1.5;
+  color: #323232;
+  font-weight: 300;
+  margin-bottom: 15px;
 }
 
 #flexDiv > div.whyUs > a {
-    font-family: "Gilroy-Medium";
-    font-size: 14px;
-    text-decoration: none;
-    color: rgb(255, 140, 0);
+  font-family: "Gilroy-Medium";
+  font-size: 1rem;
+  text-decoration: none;
+  color: rgb(255, 140, 0);
+}
+
+@media (min-width: 768px) {
+  div#flexDiv {
+    flex-direction: row;
+    justify-content: center;
+    padding-block: 80px;
+    padding-inline: 50px;
+  }
+
+  #flexDiv > div > h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  #flexDiv > div.whyUs {
+    margin-left: 30px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  #flexDiv > div.whyUs > p {
+      margin-left: 0; 
+      margin-right: 10%;
+ }
+}
+
+@media (min-width: 992px) {
+  div#flexDiv {
+    padding-block: 120px;
+    padding-inline: 70px;
+  }
+
+  #flexDiv > div > h1 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+  }
+
+  #flexDiv > div.whyUs {
+    margin-left: 50px;
+  }
+  #flexDiv > div.whyUs > p {
+    margin-right: 10%;
+    margin-left: 0; 
+  }
 }

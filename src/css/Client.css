@@ -55,3 +55,10 @@
     border: 10px solid white;
     border-radius: 50%;
   }
+
+@media (max-width: 1200px) {
+  .clientMain {
+    margin-bottom: -150px;
+  }
+
+}

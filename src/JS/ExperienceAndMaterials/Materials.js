@@ -8,8 +8,8 @@ import "../../css/gilroy.css";
 function Materials() {
   return (
     <>
-      <div className="flex">
-        <div className="textDiv">
+      <div className="flex" style={{marginTop: 300}}>
+        <div className="textDiv materialsText">
           <h2>MATERIALS</h2>
           <h1>Very Serious Materials For Making Furniture</h1>
           <p>
@@ -21,15 +21,13 @@ function Materials() {
           <img src={arr} className="arrow" />
         </div>
         <div className="imgs">
-          <img src={image3} style={{ marginRight: 40 }} />
+          <img src={image3} id="chairs" style={{ marginRight: 40 }} />
           <div className="flex2">
             <img src={image4} id="sofa" style={{ marginRight: 40 }} />
             <img src={image2} id="notSofa" />
           </div>
         </div>
       </div>
-      <div className="back back3"></div>
-      <div className="back back4"></div>
     </>
   );
 }

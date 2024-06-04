@@ -21,3 +21,27 @@
   font-size: 42px;
 }
 
+@media (max-width: 992px) {
+  .CR_container {
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+  }
+
+  .clientMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+  } 
+
+  .clientMain > .clientText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    margin-top: -225px;
+  }
+}

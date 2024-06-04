@@ -1,3 +1,15 @@
+nav {
+  background-color: transparent;
+  padding: 1.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 #logo {
   font-family: "Gilroy-Bold";
   font-size: 24px;
@@ -15,25 +27,82 @@ a.choose {
   margin-right: 70px;
 }
 
-nav {
-  background-color: transparent;
-  padding: 1.75rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-a#basket {
+a.rightA {
   color: white;
   text-decoration: none;
-  margin-right: 70px;
+  margin-right: 40px;
+
 }
 
-a.choose>i {
-    font-size: 12px;
-    margin-left: 5px
+a.chooseResp:hover {
+  font-weight: bold;
 }
 
-a#basket>i {
-    font-size: 28px;
+.responsive-menu {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 70px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.chooseResp {
+  font-weight: 400;
+  font-family: "Gilroy-Medium";
+  color: white;
+  text-decoration: none;
+  padding: 20px 24px;
+}
+
+a.choose > i {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+a#basket > i {
+  font-size: 28px;
+}
+
+
+@media (min-width: 768px) {
+  #logo {
+    margin-left: 50px;
+  }
+
+  a.choose {
+    margin-right: 50px;
+  }
+
+  a#basket {
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #logo {
+    margin-left: 70px;
+  }
+
+  a.choose {
+    margin-right: 70px;
+  }
+
+  a#basket {
+    margin-right: 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #logo {
+    margin-left: 70px;
+  }
+
+  a.choose {
+    margin-right: 70px;
+  }
+
+  a#basket {
+    margin-right: 70px;
+  }
 }

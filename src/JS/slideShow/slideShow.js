@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import arr from "../../imgs/Vectorarr.png";
 import "../../css/slideShow.css";
@@ -23,8 +23,22 @@ function SlideShow() {
     changeSlide(newId - prevId);
   }
 
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
-    /*Muellim boldums :)*/
+    /*Muellim boldum :)*/
     <div style={{ backgroundColor: "whitesmoke" }} className="main">
       <h1
         style={{
@@ -76,10 +90,16 @@ function SlideShow() {
           className="slides"
           style={{ transform: `translateX(-${currentSlide * 100}%)` }}
         >
-          <Slide />
-          <Slide />
-          <Slide />
-          <Slide />
+          {windowWidth > 1200 ? (
+            <>
+              <Slide />
+              <Slide />
+              <Slide />
+              <Slide />
+            </>
+          ) : (
+            <Slide />
+          )}
         </div>
         <button className="prev" onClick={() => changeSlide(-1)}>
           <i className="fa-solid fa-arrow-left"></i>
